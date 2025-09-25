@@ -17,13 +17,13 @@ router.use('/:eventID', (req, res, next) => {
     const event = eventData.find(e => e.id === eventId)
     if(!event)
     {
-        return res.status(404).sendFile(path.resolve(dirname, '../../client/404error.html'))
+        return res.status(404).sendFile(path.resolve(dirname, '../../client/public/404error.html'))
     }
     next()
 })
 
 router.get('/:eventID', (req,res) => {
-    res.status(200).sendFile(path.resolve(dirname, '../../client/event.html'))
+    res.status(200).sendFile(path.resolve(dirname, '../../client/public/event.html'))
 })
 
 export default router;
