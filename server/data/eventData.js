@@ -1,6 +1,6 @@
 const events = [
     {
-
+        id: "1",
         type: "rap",
         time: "5",
         artist: "Drake",
@@ -8,18 +8,21 @@ const events = [
 
     },
     {
+        id: "2",
         type:"jazz",
         time: "10",
         artist: "Sinatra",
         image: "https://images.pexels.com/photos/733767/pexels-photo-733767.jpeg"
     },
     {
+        id: "3",
         type: "rock",
         time: "12",
         artist: "Beatles",
         image: "https://as2.ftcdn.net/v2/jpg/06/31/57/49/1000_F_631574976_azKHbn7Wpgm5STi5jU3jrtigTlBI9iih.jpg"
     },
     {
+        id: "4",
         type: "rap",
         time: "10",
         artist: "Kendrick Lamar",
@@ -27,6 +30,7 @@ const events = [
     }
     ,
     {
+        id: "5",
         type: "rock",
         time: "2",
         artist: "Pink Floyd",
