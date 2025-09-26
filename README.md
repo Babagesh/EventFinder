@@ -30,13 +30,16 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with 
+<div>
+    <a href="https://www.loom.com/share/2691214d0039493aaca10720451a49db">
+      <p>Eventmania - 26 September 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/2691214d0039493aaca10720451a49db">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/2691214d0039493aaca10720451a49db-53af76ae23ed6b28-full-play.gif">
+    </a>
+  </div>
+GIF created with Loom
 
 ## Notes
 
