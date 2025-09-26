@@ -12,6 +12,7 @@ router.get('/', (req, res) => {
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 
+
 router.use('/:eventID', (req, res, next) => {
     const eventId = parseInt(req.params.eventID)
     const event = eventData.find(e => e.id === eventId)
