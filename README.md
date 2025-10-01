@@ -16,7 +16,7 @@ The following **required** functionality is completed:
 - [x] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
 - [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
   - [x] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
+  - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
 - [x] **The web app serves an appropriate 404 page when no matching route is defined**
 - [x] **The web app is styled using Picocss**
 
@@ -30,23 +30,20 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+<div>
+    <a href="https://www.loom.com/share/2691214d0039493aaca10720451a49db">
+      <p>Eventmania - 26 September 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/2691214d0039493aaca10720451a49db">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/2691214d0039493aaca10720451a49db-53af76ae23ed6b28-full-play.gif">
+    </a>
+  </div>
+GIF created with Loom
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
-
+Had challenge with proper folder management and paths for src files. CSS and DOM manipulation was also time consuming and challenging.
 ## License
 
 Copyright [2025] [Bhagyesh Jethwani]

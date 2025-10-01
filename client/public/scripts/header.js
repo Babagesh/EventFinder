@@ -6,7 +6,7 @@ const headerLeft = document.createElement('div')
 headerLeft.className = 'header-left'
 
 const headerLogo = document.createElement('img')
-headerLogo.src = './assets/concert.jpg'
+headerLogo.src = '/assets/concert.jpg'
 headerLogo.className = 'header-logo'
 
 const headerTitle = document.createElement('h2')
