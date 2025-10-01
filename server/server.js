@@ -1,4 +1,5 @@
 import express from 'express'
+import 'dotenv.js'
 import eventsRouter from './routes/eventsRouter.js'
 
 const app = express()
