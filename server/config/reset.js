@@ -1,4 +1,4 @@
-import pool from './database.js'
+import {pool} from './database.js'
 import eventData from '../data/eventData.js'
 import './dotenv.js'
 
@@ -32,7 +32,7 @@ const seedEventsTable = async () => {
             text:'INSERT INTO events (artist, type, time, image) VALUES ($1, $2, $3, $4)'
         }
         const values = [
-            event.name,
+            event.artist,
             event.type,
             event.time,
             event.image
@@ -43,7 +43,7 @@ const seedEventsTable = async () => {
                 console.error('⚠️ error inserting event', err)
                 return
             }
-            console.log(`✅ ${event.name} added successfully`)
+            console.log(`✅ ${event.artist} added successfully`)
         });
     });
 }

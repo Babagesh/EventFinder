@@ -3,8 +3,8 @@ import {fileURLToPath} from 'url'
 import {dirname, join} from 'path'
 
 const filename = fileURLToPath(import.meta.url)
-const dirname = dirname(filename)
+const dir = dirname(filename)
 
 dotenv.config({
-    path: join(dirname, '../.env')
+    path: join(dir, '../.env')
 })
