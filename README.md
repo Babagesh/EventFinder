@@ -23,27 +23,28 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you added to improve the site's functionality!
+
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+<div>
+    <a href="https://www.loom.com/share/a4ffd8c2a047473c973e0777df6280ec">
+      <p>EventFinder with Render/PostgreSQL - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/a4ffd8c2a047473c973e0777df6280ec">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a4ffd8c2a047473c973e0777df6280ec-3081e764fb35cdb0-full-play.gif">
+    </a>
+  </div>
+GIF created with Loom
 
 ## Notes
 
-Had challenge with proper folder management and paths for src files. CSS and DOM manipulation was also time consuming and challenging.
+Had challenge with dotenv and proper .env location for dotenv to locate based on directory.
+
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2025] [Bhagyesh Jethwani]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
